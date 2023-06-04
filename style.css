@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+/* Start Nav bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    z-index: 10;
+    /* position: sticky;
+    top: 0; */
+}
+
+
+/* Left side */
+
+.nav-bar .left-side {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    z-index: 1;
+}
+
+.nav-bar .left-side img {
+    width: 120px;
+}
+
+.nav-bar .left-side a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: gray;
+    border-radius: 3px;
+    padding: 3px;
+}
+.nav-bar .left-side a:hover {
+    background-color: #ddd;
+}
+
+.nav-bar .left-side .Home {
+    border-bottom: 3px solid gray;
+}
+
+
+/* Right side */
+.nav-bar .right-side {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    z-index: 1;
+}
+
+.nav-bar .right-side a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 17px;
+    color: gray;
+}
+.nav-bar .right-side a:hover {
+    background-color: #ddd;
+}
+
+/* End Nav bar */
+
+
+
+
+
+
+
+/* Start Header */
+.header img {
+    width: 100%;
+    margin-top: -240px;
+    /* position: relative; */
+}
+
+.header .cover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -420px;
+    margin-left: 290px;
+    margin-right: 0px;
+}
+
+.header .cover .words {
+    margin-top: -320px;
+    margin-left: -170px;
+}
+
+.header .cover .words h1 {
+    font-size: 52px;
+    color: rgb(71, 71, 71);
+}
+
+.header .cover .words h1 mark {
+    color: #7e3a8d;
+    background-color: #e5f4fb00;
+}
+
+.header .cover .words p {
+    font-size: 25px;
+    color: #a0a0a0;
+}
+
+.header .cover .pics {
+    position: relative;
+}
+
+.header .cover .pics .perpulbk {
+    width: 700px;
+}
+.header .cover .pics .man {
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+.header .cover .pics .waves {
+    width: 1120px;
+    position: absolute;
+    top: 520px;
+    right: 380px;
+}
+
+.header .cover .pics .clouds {
+   width: fit-content;
+    position: absolute;
+    top: 400px;
+    right: 0px;
+}
+
+/* End Header */
+
+
+
+
+
+
+
+/* Start Sec1 */
+
+.sec1 {
+    position: relative;
+}
+.sec1 img {
+    width: 1000px;
+    margin-left: 350px;
+    margin-top: 90px;
+}
+
+.sec1-all {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+
+
+/* Sec1 Left */
+.sec1-left {
+    position: absolute;
+    top: -540px;
+    left: -85px;
+}
+.sec1-all .sec1-left img {
+    margin-bottom: 5px;
+    width: 200px;
+    /* margin-left: px; */
+}    
+
+.sec1-all .sec1-left .title {
+    text-align: center;
+    margin-left: 340px;
+}
+.sec1-all .sec1-left h1 {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    /* text-align: center; */
+
+}
+
+.sec1 .sec1-left p {
+    font-size: 15px;
+    color: #a0a0a0;
+    /* text-align: center; */
+}
+
+
+
+
+/* Sec1 Middle */
+.sec1-middle {
+    position: absolute;
+    top: -395px;
+    left: 370px;
+}
+
+.sec1-all .sec1-middle img {
+    margin-bottom: 5px;
+    width: 200px;
+    /* margin: auto; */
+}  
+
+.sec1-all .sec1-middle .title {
+    text-align: center;
+    margin-left: 360px;
+}
+
+.sec1-all .sec1-middle h1 {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    /* text-align: center; */
+
+}
+
+.sec1 .sec1-middle p {
+    font-size: 15px;
+    color: #a0a0a0;
+    /* text-align: center; */
+}
+
+
+
+
+/* Sec1 Right */
+.sec1-right {
+    position: absolute;
+    top: -110px;
+    left: 740px;
+}
+
+.sec1-all .sec1-right img {
+    margin-bottom: 5px;
+    width: 230px;
+    /* margin-right: auto; */
+}  
+
+
+.sec1-all .sec1-right .title {
+    text-align: center;
+    margin-left: 340px;
+}
+
+.sec1-all .sec1-right h1 {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    /* text-align: center; */
+
+}
+
+.sec1 .sec1-right p {
+    font-size: 15px;
+    color: #a0a0a0;
+    /* text-align: center; */
+}
+
+.why {
+    position: absolute;
+    top: 1345px;
+    left: 160px;
+}
+
+.why img {
+    width: 420px;
+}
+
+.why .choose {
+    color: rgb(236, 234, 234);
+    font-size: 31px;
+    position: absolute;
+    top: 125px;
+    left: 105px;
+}
+
+/* End Sec1 */
+
+
+
+
+
+
+
+/* Start Sec2 */
+
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1900px;
+    left: 570px;
+    width: 400px;
+}
+
+.sec22 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 860px;
+}
+
+
+.sec22 .sec22-left i {
+    margin-left: 250px;
+    color: #a0a0a0;
+}
+
+
+.sec22 .sec22-right i {
+    margin-right: 220px;
+    color: #a0a0a0;
+}
+
+/* End Sec2 */
+
+
+
+
+
+
+
+/* Start Sec3 */
+
+.sec3 {
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+.sec3 h2 {
+    font-size: 27px;
+    color: rgb(71, 71, 71);
+}
+
+.sec3 p {
+    font-size: 19px;
+    color: #a0a0a0;
+}
+
+/* End Sec3 */
+
+
+
+
+/* Start Footer */
+
+.foot .footbk {
+    max-width: 100%;
+    margin-top: -80px;
+    position: relative;
+}
+
+.foot .foot-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 2603px;
+    right: 120px;
+}
+
+
+/* foot left */
+
+/* Download */
+
+.foot .foot-details .foot-left {
+    position: absolute;
+    top: 245px;
+    left: -650px;
+}
+
+
+.foot .foot-details .foot-left .icons .download {
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+}
+
+.foot .foot-details .foot-left .icons .download .apple {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.foot .foot-details .foot-left .icons .download .apple:hover {
+    background-color: #adadad;
+}
+
+.foot .foot-details .foot-left .icons .download .apple .app-store {
+    margin-left: 10px;
+}
+
+
+
+.foot .foot-details .foot-left .icons .download .android {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.foot .foot-details .foot-left .icons .download .android:hover {
+    background-color: #adadad;
+}
+
+.foot .foot-details .foot-left .icons .download .android .play-store {
+    margin-left: 10px;
+}
+
+
+
+/* Social */
+
+.foot .foot-details .foot-left .icons .social {
+    display: flex;
+    align-items: center;
+}
+
+.foot .foot-details .foot-left .icons .social a {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.foot .foot-details .foot-left .icons .social a img {
+    /* background-color: gray; */
+    width: 30px;
+    margin: 30px 1px;
+}
+
+.foot .foot-details .foot-left .icons .social a .facebook {
+    width: 19px;
+}
+
+
+
+/* Links */
+
+.foot .foot-details .foot-left .icons .links a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.foot .foot-details .foot-left .icons .links a:hover {
+    background-color: #adadad;
+}
+
+
+
+
+
+/* foot right */
+
+.foot .foot-details .foot-right img {
+    width: 650px;
+}
+
+
+
+/* End Footer */
+
+
+
+
+
+
+
+
